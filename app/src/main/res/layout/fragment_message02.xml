@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--信息Fragment点击电话的Fragnent-->
+
+    <TextView
+        android:id="@+id/tex"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text="@string/电话"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>

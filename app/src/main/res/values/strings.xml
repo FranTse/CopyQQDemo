@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">CopyQQDemo</string>
+    <string name="消息">消息</string>
+    <string name="联系人">联系人</string>
+    <string name="动态">动态</string>
+    <string name="user_name">难述、形单影只</string>
+    <string name="设置">设置</string>
+    <string name="消息界面">这是消息界面</string>
+    <string name="联系人界面">这是联系人界面</string>
+    <string name="动态界面">这是动态界面</string>
+    <string name="我的相册">我的相册</string>
+    <string name="个性装扮">个性装扮</string>
+    <string name="我的文件">我的文件</string>
+    <string name="QQ钱包">QQ钱包</string>
+    <string name="我的超级会员">我的超级会员</string>
+    <string name="我的收藏">我的收藏</string>
+    <string name="电话">电话</string>
+    <string name="搜索">搜索</string>
+    <string name="新朋友">新朋友</string>
+    <string name="群聊">群聊</string>
+    <string name="公众号">公众号</string>
+    <string name="最近联系人">最近联系人</string>
+
+    <string-array name="left_menu_titles">
+        <item>超级会员</item>
+        <item>QQ钱包</item>
+        <item>个性装扮</item>
+        <item>我的收藏</item>
+        <item>我的相册</item>
+        <item>我的文件</item>
+    </string-array>
+</resources>

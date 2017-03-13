@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="50dp">
+
+    <!--联系人Fragment中ExpandableListView的子容器的模板-->
+
+    <RelativeLayout
+        android:paddingStart="5dp"
+        android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <an.com.copyqqdemo.View.XCRoundImageView
+            android:id="@+id/item_contacts_head"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:gravity="center"
+            android:layout_toEndOf="@+id/item_contacts_head"
+            android:paddingStart="15dp"
+            android:id="@+id/item_contacts_name"
+            android:textColor="@color/black01"
+            android:textSize="25sp"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp" />
+
+
+
+    </RelativeLayout>
+
+</LinearLayout>

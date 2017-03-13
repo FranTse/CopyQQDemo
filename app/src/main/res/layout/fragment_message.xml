@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--信息Fragment创建ViewPager-->
+
+    <include
+        android:id="@+id/message_top"
+        layout="@layout/top_message"/>
+
+    <an.com.copyqqdemo.ViewPager.MessageViewPager
+        android:id="@+id/viewpager"
+        android:layout_below="@id/message_top"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </an.com.copyqqdemo.ViewPager.MessageViewPager>
+
+</RelativeLayout>
